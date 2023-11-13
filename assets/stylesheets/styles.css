@@ -62,7 +62,7 @@ header a.logo{
     display: block;
     width: 70px;
     height: 70px;
-    background: url('assets/images/SanusLogoNoTextColor.png') no-repeat 0 0;
+    background: url(images/SanusLogoNoTextColor.png) no-repeat 0 0;
     background-size: contain;
     top: 10px;
     left: 30px;    
