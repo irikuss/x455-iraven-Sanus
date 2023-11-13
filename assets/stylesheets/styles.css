@@ -1,0 +1,410 @@
+/*defining our working area*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*defining H1*/
+h1 {
+    margin: 0px 0px 1em 0px;
+    color: rgb(159, 59, 80);
+    font-size: 2.7em;
+    font-family: atma;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 5px;
+  }
+
+/*defining H2*/
+h2 {
+    margin: 0px 0px 1em 0px;
+    font-size: 1.7em;
+    font-family: atma;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 15px;
+  }
+
+  h2:hover.hover-color-b {
+    color: rgb(159, 59, 80);
+    text-decoration: none;
+}
+
+/*defining H3*/
+h3 {
+    margin: 0px 0px 1em 0px;
+    color: rgb(159, 59, 80);
+    font-size: 1.7em;
+    font-family: atma;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 0px;
+  }
+
+  h4 {
+    margin: 0px 0px 0em 0px;
+    color: rgb(159, 59, 80);
+    font-size: 1.7em;
+    font-family: atma;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+
+/*Where the logo goes*/
+header a.logo{
+    position: absolute;
+    display: block;
+    width: 70px;
+    height: 70px;
+    background: url(/assets/images/SanusLogoNoTextColor.png) no-repeat 0 0;
+    background-size: contain;
+    top: 10px;
+    left: 30px;    
+}
+
+/*Where the logo text goes*/
+header a.logotext1{
+    position: absolute;
+    display: block;
+    font-family: atma;
+    top: 15px;
+    left: 120px;   
+    font-size: 32px;
+    color: rgb(80, 80, 80);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*Where the logo slogan goes*/
+header a.logotext2{
+    position: absolute;
+    display: block;
+    font-family: poppins;
+    top: 53px;
+    left: 120px;
+    font-size: 15px;
+    color: rgb(80, 80, 80);
+    font-weight:normal;
+    text-decoration: none;
+}
+
+/*color of navigation menu*/
+.horizontal-nav{
+    background-color: white;
+    text-align: right;
+    padding: 0px 0px 0px 180px;
+}
+
+/*text color of navigation menu*/
+.horizontal-nav a{
+    display:inline-block;
+    color: rgb(80, 80, 80);
+    margin: 25px 10px;
+    padding: 10px 10px;
+    text-decoration: none; 
+    font-family: poppins;
+}
+
+/*active page get bold and change of text color*/
+.active-menu-item {
+    font-weight: bold;
+    font-family: poppins;
+    color: rgb(159, 59, 80);
+}
+
+/*text color (159,59,80) and weight (bold) hover navigation menu*/
+.horizontal-nav a:hover{
+    cursor: pointer;
+    color: rgb(159, 59, 80);
+    font-family: poppins;
+    font-weight: normal;
+}
+
+/*defining image cover homepage*/
+header.home-page{
+    background: #eee url(/assets/images/cover_home.jpg) no-repeat center;
+    background-size: cover;
+    height: 600px;
+}
+
+/*defining image cover about*/
+header.about{
+    background: #eee url(/assets/images/cover_about.jpg) no-repeat center;
+    background-size: cover;
+    height: 400px;
+}
+
+/*defining image cover recipes*/
+header.recipes{
+    background: #eee url(/assets/images/cover_recipes.jpg) no-repeat center;
+    background-size: cover;
+    height: 400px;
+}
+
+/*defining image cover chefs*/
+header.chefs{
+    background: #eee url(/assets/images/cover_chefs.jpg) no-repeat center;
+    background-size: cover;
+    height: 400px;
+}
+
+/*defining image cover howto*/
+header.howto{
+    background: #eee url(/assets/images/cover_howto.jpg) no-repeat center;
+    background-size: cover;
+    height: 400px;
+}
+
+/*defining image cover newsletter*/
+header.newsletters{
+    background: #eee url(/assets/images/cover_newsletters.jpg) no-repeat center;
+    background-size: cover;
+    height: 400px;
+}
+
+/*defining image cover recipes home page*/
+.cover-hp{
+    background: #eee url(/assets/images/cover_home.jpg) no-repeat center;
+    background-size: cover;
+    height: 600px;
+}
+
+/*defining image cover recipes home page*/
+.cover-hp1{
+    background: linear-gradient( rgba(255, 226, 226, 0.923), rgba(174, 166, 166, 0.783) ), url(/assets/images/background2.png) no-repeat center;
+    background-size: cover;
+    height: 660px;
+}
+
+/*defining image cover chef home page*/
+.cover-hp2{
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(/assets/images/cover_chefs.jpg) no-repeat center;
+    background-size: cover;
+    height: 600px;
+}
+
+/*defining image cover newletter home page*/
+.cover-hp3{
+    background: rgb(253, 225, 231) no-repeat center;
+    background-size: cover;
+    height: 600px;
+}
+
+/*defining image cover how to's home page*/
+.cover-hp4{
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(/assets/images/cover_howto.jpg) no-repeat center;
+    background-size: cover;
+    opacity: 2.4;
+    height: 600px;
+}
+
+
+
+
+/**/
+.flex-container > div {
+    width: 25%;
+  }
+  .flex-container > span > h2 {
+    text-align: center;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  
+  video {
+    display: none;
+  }
+
+/*Color of MORE or LESS accordion*/
+.accordion {
+    color: rgb(159, 59, 80);
+    font-family: poppins;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+  
+  /*Color of MORE or LESS accordion*/
+  .active,
+  .accordion:hover {
+    color: rgb(80, 80, 80);
+    font-family: poppins;
+    font-weight: bold;
+  }
+  
+  /* accordion*/
+  .panel {
+    display: none;
+    overflow: hidden;
+  }  
+
+
+/*Setting up my footer*/
+footer {
+    width: 100%;
+    height: 115px;
+    background-color: white;
+    
+}
+
+/*space between icons footer social menu*/
+footer div.icon-horizontal {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+ 
+/*color for icons on footer*/
+footer a {
+    color: rgb(159, 59, 80);
+    text-decoration: none;
+}
+ 
+/*hover color for icons on footer*/
+footer a:hover.hover-color {
+    color: rgb(80, 80, 80);
+    text-decoration: none;
+}
+
+/*15px of padding for icons footer*/
+.padding-right {
+    padding-right: 15px;
+}
+
+/*15px of padding for icons footer*/
+.padding-left {
+    padding-left: 15px;
+}
+
+/*styles for footer copyright text*/
+.copy-right {
+    font-size: 14px;
+    font-family: poppins;
+    color: rgb(80, 80, 80);
+    display: flex;
+    justify-content: center;
+  }
+  
+/*icon for users to go to top*/
+.to-top {
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    text-decoration: none;
+    color: rgb(159, 59, 80);
+    justify-content: center;
+    font-family: atma;
+    font-size: 20px;
+    font-weight: bold; 
+  }
+
+  aside {
+    width: 40%;
+    float: left;
+  }
+  aside > div {
+    /* padding: top right bottom left */
+    padding: 0px 40px 0px 40px;
+  }
+  
+  aside div li {
+    font-size: 1.1em;
+    line-height: 1.5em;
+  }
+  
+  aside > div > div.scrolling {
+    height: 600px;
+    overflow: auto;
+  }
+  
+  
+
+
+
+  
+
+
+/*----------------------------------------*/
+/*-----------Responsive Part--------------*/
+
+
+/*responsive menu where it goes*/
+.dropdown {
+    position: absolute;
+    display: none;
+    top: 0;
+    right: 0;
+}
+
+/*responsive menu design (just hamburger menu)*/
+.dropbtn {
+    background-color: white;
+    opacity: 0.9;
+    color:rgb(159, 59, 80);
+    padding: 16px;
+    font-size: 16px;
+    border:none;
+    cursor:pointer;
+}
+
+/*content hamburger menu the right of scree*/
+.dropdown-content{
+    display:none;
+    position: absolute;
+    right: 0;
+    background-color: rgb(159, 59, 80)
+}
+
+/*hamburger menu content on the right of screen*/
+.dropdown-content a {
+    color: rgb(80, 80, 80);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: poppins;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/*color of dropdown menu when hover*/
+.dropdown-content a:hover{
+    color: rgb(159, 59, 80);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*keeps dropdown menu hold*/
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+
+/*color of responsive menu*/
+.dropdown:hover .dropdown-content{
+    background-color: white;
+    opacity: 0.9;
+}
+
+/*Styles to add hamburger menu when it's a small area*/
+@media screen and (max-width: 600px) {
+    .horizontal-nav{
+        display: none;
+    }
+
+    .dropdown{
+        display: block;
+    }
+}
+        
+
+

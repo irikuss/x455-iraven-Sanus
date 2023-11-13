@@ -1,0 +1,348 @@
+<!--Irina Raven - Sanus website-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Page title-->
+    <title>Sanus</title>
+    
+    <!--Adding Font Awesome styles ref-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Adding my styles sheet-->
+    <link rel="stylesheet" href="/assets/stylesheets/styles.css">
+
+    <!--css styles-->
+    <style>
+
+        /* The container */
+        .container {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 17px;
+        font-family: poppins;
+        font-weight: lighter;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        }
+
+        /* Hide the browser's default checkbox */
+        .container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+        }
+
+        /* Create a custom checkbox */
+        .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 25px;
+        width: 25px;
+        background-color: #ccc;
+        }
+
+        /* On mouse-over, add a grey background color */
+        .container:hover input ~ .checkmark {
+        background-color: rgb(80, 80, 80)
+        }
+
+        /* When the checkbox is checked, add a pink background */
+        .container input:checked ~ .checkmark {
+        background-color: rgb(159, 59, 80);;
+        }
+
+        /* Create the checkmark/indicator (hidden when not checked) */
+        .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+        }
+
+        /* Show the checkmark when checked */
+        .container input:checked ~ .checkmark:after {
+        display: block;
+        }
+
+        /* Style the checkmark/indicator */
+        .container .checkmark:after {
+        left: 9px;
+        top: 5px;
+        width: 5px;
+        height: 10px;
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        }
+
+        p{
+            font-family: poppins;
+            font-weight: lighter;   
+            font-size: 17px;
+            color: rgb(80, 80, 80);
+        }
+
+        ol{
+            font-family: poppins;
+            font-weight: lighter; 
+            font-size: 17px;
+            color: rgb(80, 80, 80);  
+        }
+
+        ul{
+            font-family: poppins;
+            font-weight: lighter; 
+            font-size: 17px;
+            color: rgb(80, 80, 80);  
+        }
+        ul.b {
+            list-style-type: square;
+            color: rgb(80, 80, 80); 
+            padding-left: 20px;
+            list-style-position: inside;
+        }
+
+        .parent-container{
+                margin-left: 10%;
+                margin-right: 10%;  
+            }
+    </style>
+    
+</head>
+
+<body>
+    
+    <!--header of all webpages-->
+    <header class="recipes">
+      
+      <!--logo, business and slogan-->
+      <a class="logo" href="index.html"></a>
+      <a class="logotext1" href="index.html">SANUS</a>
+      <a class="logotext2" href="index.html">From Scratch</a>
+
+      <!--navigation menu-->
+      <nav>
+             <!--regular navigation menu-->
+             <div class="horizontal-nav">
+                <a href="index.html">home</a>
+                <a href="about.html">about us</a> 
+                <a class="active-menu-item" style="color: rgb(159, 59, 80)" href="recipes.html">recipes</a>
+                <a href="chefs.html">chefs</a>
+                <a href="newsletter.html">newsletter</a>
+                <a href="howto.html">how to</a>
+            </div>
+    
+            <!--responsive navigation menu-->
+            <div class="dropdown">
+                <button class="dropbtn"><span class="fa fa-bars fa-x"></span></button>
+                <div class="dropdown-content">
+                <a href="index.html">home</a>
+                <a href="about.html">about us</a>
+                <a href="recipes.html">recipes</a>
+                <a href="chefs.html">chefs</a>
+                <a href="newsletter.html">newsletter</a>
+                <a href="howto.html">how to</a>
+            </div>
+        </div>
+
+        </nav>
+
+    </header>
+
+    <section>
+    
+        <div class="parent-container">
+
+            <h1>Acai Bowl Recipe</h1>
+
+            <div>
+                <img src="/assets/images/bowl1.jpg" alt="acai bowl" style="float:left; padding-right: 20px; padding-top: 0px; padding-bottom: 10px; width:372px; height:279px;">
+                <h3 style="padding-top: 0px; text-transform: uppercase; text-align: left;">Perfect for you</h3>
+                <p> Ready in just a few minutes, this Acai Bowl Recipe is filled with acai 
+                    berry puree, fruit, and all your favorite toppings. Learn how easy it is 
+                    to make your very own Acai Bowl right from home and enjoy this powerhouse 
+                    of fiber, antioxidants, and healthy fats anytime you want for a fraction 
+                    of the cost!
+                </p>
+                <p>Many years (and Instagram posts) later, “acai” is now synonymous with the 
+                    word “superfood” (because it is) and everyone wants a piece.
+                </p>
+                
+                <p>My first encounter with the infamous Acai Bowl was nearly fifteen years 
+                    ago as a student at University of California Santa Cruz. Facebook was 
+                    still just for students, Instagram was unheard of, and flip phones were 
+                    all the rage. Despite a lack of social media coverage, however, 
+                    acai bowls (and burritos) reigned king in my not-so-sleepy college town.
+
+                </p>
+            </div>
+
+            <br><br><br>
+
+            <div>
+                <img src="/assets/images/july22.jpg" alt="acai bowl" style="float:right; padding-left: 20px; padding-top: 0px; padding-bottom: 10px; width:372px; height:279px;">
+                <h3 style="padding-top: 0px; text-transform: uppercase; text-align: left;">What is Acai?</h3>
+                <p> 
+                    Açaí, pronounced ah-sigh-EE, comes from the acai berry grown on the acai 
+                    palm tree in South Amerian rainforests.
+                </p>
+                <p>
+                    With an outward appearance similar to that of a grape and a blueberry, 
+                    approximately 80 percent of an acai berry is the seed with the 
+                    remaining 20 percent containing the all nutritional value. Many 
+                    believe that the acai berry contains more antioxidants than blueberries, 
+                    strawberries, blackberries, raspberries, or cranberries.
+                </p>
+                
+                <p>
+                    With claims that acai helps aid in weight loss, brain function, and 
+                    prevent cancer, it’s easy to get hooked. But are any of these claims 
+                    true? According to WebMD acai berries have “no known health benefit 
+                    that’s different from similar fruits.”
+                </p>
+                <p>
+                    Here’s what we DO KNOW about acai: for starters, unlike many fruits that are high in sugar and low in fat, 
+                    the acai berry is actually somewhat higher in fat and low in sugar.
+                </p>
+            </div>
+
+            <br><br><br>
+                
+            <div> 
+                <img src="/assets/images/bowl3.jpg" alt="acai bowl" style="float:left; padding-right: 20px; padding-top: 0px; padding-bottom: 10px; width:372px; height:279px;">
+                <h3 style="padding-top: 0px; text-transform: uppercase; text-align: left;">what your body needs!</h3>
+                <p>In 100 grams of frozen unsweetened acai fruit pulp you’ll receive:</p>
+                <ul class="b">
+                    <li>Calories: 70</li>
+                    <li>Fat: 5 grams</li>
+                    <li>Potassium: 130 mg</li>
+                    <li>Carbohydrates: 5 grams</li>
+                    <li>Fiber: 4 grams</li>
+                    <li>Sugar: 0 grams</li>
+                    <li>Protein: 1 gram</li>
+                </ul>   
+            </div>
+
+            <br>
+
+            <h1>HOW TO DO IT?</h1>
+
+            <aside style="width: 50%">
+                <!--Ingredients-->
+                <div>
+                    <div>
+                        <h4 style="text-transform: uppercase;">ingredients</h4>
+                        
+                        <label class="container">1 banana - sliced and frozen
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                          </label>
+
+
+                          <label class="container">1/2 cup blueberries - frozen
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                          </label>
+
+                          <label class="container">1/2 cup strawberries - frozen
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                          </label>
+
+                          <label class="container">3/4 cup milk or juice - use your favorite milk (dairy milk, soy, almond, etc) or juice (apple or grape)
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                          </label>
+
+                          <label class="container">1/2 cup plain yogurt - (substitute with milk or juice if desired)
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                          </label>
+
+                          <label class="container">200 grams (2 packets) frozen acai puree - broken into pieces
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                          </label>
+
+                          <label class="container">assorted toppings - nuts, seeds, fresh fruit, granola, coconut, etc.
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                          </label>
+                    </div>
+                </div>
+
+                <br> <br>
+
+                <!--Nutricional Info-->
+                <div>
+                    <div>
+                        <h4 style="text-transform: uppercase;">ingredients</h4>
+                        <p>
+                            Calories: 248kcal | Carbohydrates: 29g | Protein: 7g | 
+                            Fat: 10g | Saturated Fat: 3g | Cholesterol: 17mg | 
+                            Sodium: 69mg | Potassium: 511mg | Fiber: 7g | Sugar: 20g | 
+                            Vitamin A: 245IU | Vitamin C: 29.9mg | Calcium: 183mg | 
+                            Iron: 0.4mg
+                        </p>
+                    </div>
+                </div>
+
+            </aside>
+
+            <aside style="width: 50%">
+                <!--Steps-->
+                <div>
+                    <div>
+                        <h4 style="text-transform: uppercase;">instructions</h4>
+                        <ol>
+                            <li>Freeze your fruit. Slice your banana and transfer it to a small baking sheet or plate lined with parchment paper. To the same plate, add the blueberries and strawberries (store-bought frozen fruit will work just as well). Transfer tray or plate to the freezer and allow fruit to freeze completely.</li>
+                            <li>Blend. Once frozen, add the milk and yogurt to the bowl of a large, high-speed blender with a tamper (see notes). Add the frozen blueberries, strawberries, banana, and broken up acai. With the blender on low, use the tamper to push the frozen fruit down, mixing around as much as possible. Continue to blend on low until smooth, only adding additional liquid when needed.</li>
+                            <li>Assemble. Divide the smoothie into two bowls and top with all your favorite toppings. Popular additions include sliced banana, nuts, seeds, granola, and berries. Best enjoyed immediately.</li>
+                        </ol> 
+                    </div>
+                </div>
+            </aside>
+                
+        </div>
+
+    </section>
+
+    <br><br><br>
+
+    <div class="to-top"><a href="#">Top</a></div>
+
+    <!--footer of all webpages-->
+    <footer>
+        <div class="icon-horizontal">
+
+            <a href="https://www.instagram.com/" target="_blank" 
+            class="fa fa-instagram fa-2x hover-color"></a>
+
+            <a href="https://www.facebook.com/" target="_blank"
+             class="fa fa-facebook fa-2x hover-color padding-left"></a>
+             
+        </div>    
+        <div class="copy-right">
+            <span>Copyright &copy; 2023 Sanus | All Rights Reserved</span>
+        </div>
+          
+    </footer>
+  </body>
+  
+  </html>

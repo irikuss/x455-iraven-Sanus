@@ -1,0 +1,259 @@
+<!--Irina Raven - Sanus website-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Page title-->
+    <title>Sanus</title>
+
+    <!--Carrousel Bootstrapcdn-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <!--Adding Font Awesome styles ref-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Adding my styles sheet-->
+    <link rel="stylesheet" href="/assets/stylesheets/styles.css">
+
+    <!-- jquery.min.js should be loaded before bootstrap.min.js because bootstrap's JavaScript requires jQueary -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!--css styles-->
+    <style>
+        h2{
+            color: rgb(80, 80, 80);
+        }
+
+        img{
+            width: 268px;
+            height: 379px; 
+        }
+
+        p{
+            font-family: poppins;
+            font-weight: lighter;   
+            font-size: 16px;
+            color: rgb(80, 80, 80);
+        }
+
+        .parent-container{
+            margin-left: 10%;
+            margin-right: 10%;  
+        }
+
+        .child-container{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+    
+</head>
+
+<body>
+    
+    <!--header of all webpages-->
+    <header class="about">
+      
+      <!--logo, business and slogan-->
+      <a class="logo" href="index.html"></a>
+      <a class="logotext1" href="index.html">SANUS</a>
+      <a class="logotext2" href="index.html">From Scratch</a>
+
+      <!--navigation menu-->
+      <nav>
+        <!--regular navigation menu-->
+        <div class="horizontal-nav" style="font-size: 16px;">
+            <a href="index.html">home</a>
+            <a class="active-menu-item" style="color: rgb(159, 59, 80)" href="about.html">about us</a> 
+            <a href="recipes.html">recipes</a>
+            <a href="chefs.html">chefs</a>
+            <a href="newsletter.html">newsletter</a>
+            <a href="howto.html">how to</a>
+        </div>
+
+            <!--responsive navigation menu-->
+            <div class="dropdown">
+            <button class="dropbtn"><span class="fa fa-bars fa-x"></span></button>
+            <div class="dropdown-content">
+                <a href="index.html">home</a>
+                <a href="about.html">about us</a>
+                <a href="recipes.html">recipes</a>
+                <a href="chefs.html">chefs</a>
+                <a href="newsletter.html">newsletter</a>
+                <a href="howto.html">how to</a>
+            </div>
+        </div>
+
+        </nav>
+
+    </header>
+
+    <section>
+
+        <!--content container-->
+        <div class="parent-container">
+
+            <!--header-->
+            <h1>ABOUT US</h1>
+
+            <!--Little Menu-->
+            <div class="child-container">
+                <div>
+                    <a href="#1" style="text-decoration: none;"> <h2 class="hover-color-b"> Who We Are?</h2> </a>
+                </div>
+
+                <div>
+                    <a href="#2" style="text-decoration: none;" > <h2 class="hover-color-b">What We Do?</h2> </a>
+                </div>
+
+                <div>
+                    <a href="#3" style="text-decoration: none;"> <h2 class="hover-color-b">Our Team</h2> </a>
+                </div>
+            </div>
+        
+
+            <!--Paragraphs-->
+            <div>
+                    <img src="/assets/images/about1.jpg" alt="hands pointing computer" style="float:left; padding-right: 20px; padding-top: 45px; padding-bottom: 10px; width:372px; height:279px;">
+                    <h3 id="1" style="text-align: left;">WHO WE ARE?</h3>
+                    <p> Welcome to our vibrant world of wholesome living at Sanus. 
+                        We are passionate advocates for a nourishing lifestyle, committed 
+                        to empowering individuals on their journey to better health through 
+                        the transformative power of nutrition. Our mission is rooted in the 
+                        belief that everyone deserves access to delicious and nutritious food 
+                        that fuels the body and nourishes the soul. As your dedicated partner 
+                        in wellness, we curate a diverse range of meticulously selected, fresh, 
+                        and wholesome ingredients to inspire and support your culinary adventures. 
+                        At Sanus, we strive to be more than just a destination for quality products; 
+                        we are a community of like-minded individuals united by a shared commitment 
+                        to well-being. Join us as we celebrate the joy of mindful eating and embark 
+                        on a delicious voyage to a healthier, happier you.
+                    </p>
+            
+                    <br><br>
+            
+                    <img src="/assets/images/about2.jpg" alt="rocks" style="float:right; padding-left: 20px; padding-bottom: 15px; padding-top: 45px; padding-bottom: 10px; width:372px; height:279px;">
+                    <h3 id="2" style="text-align: left;">WHAT WE DO?</h3>
+                    <p>At Sanus, we are dedicated to revolutionizing your 
+                        approach to nourishment by offering a curated selection of premium, 
+                        nutrient-rich products that cater to your well-being. Our commitment is to 
+                        provide a one-stop destination for those seeking a healthier lifestyle. 
+                        What sets us apart is our unwavering focus on sourcing the finest 
+                        ingredients, free from additives and preservatives, ensuring that each item 
+                        embodies the essence of purity and nutritional value. From organic produce 
+                        to superfoods and wholesome snacks, we meticulously curate our offerings 
+                        to inspire and support your journey to optimal health. Our website is not 
+                        just a marketplace; it's a gateway to a world of culinary exploration, 
+                        where you can discover, learn, and embrace the goodness of wholesome eating. 
+                        With Sanus, embark on a path to wellness that celebrates the synergy between
+                        delicious flavors and mindful nutrition.
+                    </p>
+            </div>
+
+            <br><br><br>
+            <!--team members header-->
+            <h1 id="3">OUR TEAM</h1>
+
+            <!--team members pictures-->
+            <div class="child-container">
+
+                <div>
+                    <img src="/assets/images/team2.jpg" alt="woman">
+                    <h3 style="padding-top: 10px;">CEO</h3>
+                </div>
+
+                <div>
+                    <img src="/assets/images/team3.jpg" alt="man">
+                    <h3 style="padding-top: 10px;">CEO</h3>
+                </div>
+
+                <div>
+                    <img src="/assets/images/team1.jpg" alt="woman">
+                    <h3 style="padding-top: 10px;">CTO</h3>
+                </div>  
+                
+            </div>
+
+            <br><br><br><br>
+            <!--gallery-->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="/assets/images/carrousel1.jpg" alt="Office" style="width:100%;" >
+                    </div>
+
+                    <div class="item">
+                        <img src="/assets/images/carrousel2.jpg" alt="office" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img src="/assets/images/carrousel3.jpg" alt="office" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img src="/assets/images/carrousel4.jpg" alt="office" style="width:100%;">
+                    </div>
+
+                    <div class="item">
+                        <img src="/assets/images/carrousel5.jpg" alt="office" style="width:100%;">
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <br><br><br><br>
+    
+    <div class="to-top"><a href="#">Top</a></div>
+
+    <!--footer of all webpages-->
+    <footer>
+        <div class="icon-horizontal">
+
+            <a href="https://www.instagram.com/" target="_blank" 
+            class="fa fa-instagram fa-2x hover-color"></a>
+
+            <a href="https://www.facebook.com/" target="_blank"
+             class="fa fa-facebook fa-2x hover-color padding-left"></a>
+             
+        </div>    
+        <div class="copy-right">
+            <span>Copyright &copy; 2023 Sanus | All Rights Reserved</span>
+        </div>
+          
+    </footer>
+  </body>
+  
+  </html>

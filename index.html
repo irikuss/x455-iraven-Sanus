@@ -1,0 +1,271 @@
+<!--Irina Raven - Sanus website-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Page title-->
+    <title>Sanus</title>
+    
+    <!--Adding Font Awesome styles ref-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Adding my styles sheet-->
+    <link rel="stylesheet" href="/assets/stylesheets/styles.css">
+
+    <!--css styles-->
+    <style>
+        /*paragraph*/
+        p{
+            font-family: poppins;
+            color:white;
+            font-size: 20px;
+            padding-left: 23%;
+            padding-right: 23%;
+            font-weight: lighter;
+            text-align: center;
+        }
+
+        /*button*/
+        .button {
+            background-color: rgb(159, 59, 80);
+            border-radius: 30px;
+            font-family: poppins;
+            border: none;
+            color: white;
+            padding: 16px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        /*button hover*/
+        .button:hover {
+            background-color: white;
+            border-radius: 30px;
+            font-family: poppins;
+            border: none;
+            color:rgb(159, 59, 80);
+            padding: 16px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 18px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        /*align div container button*/
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+        }
+
+        /*hover color button*/
+        button:hover{
+            background-color: white;
+            font-size: 18px;
+            padding: 16px 30px;
+            border-radius: 18px;
+            font-family: poppins;
+            color: rgb(159, 59, 80);
+            font-weight: lighter;
+            border: 0px;;
+        }
+
+        /*image*/
+        img{
+            height: 140px;
+            width: 140px;
+            border-radius: 15%;
+        }
+
+        /*div container*/
+        .parent-container{
+            margin-left: 7%;
+            margin-right: 7%;  
+        }
+
+        /*div container*/
+        .child-container{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+        }   
+
+        
+    </style>
+    
+</head>
+
+<body>
+    
+    <!--header of all webpages-->
+    <header>
+      
+      <!--logo, business and slogan-->
+      <a class="logo" href="index.html"></a>
+      <a class="logotext1" href="index.html">SANUS</a>
+      <a class="logotext2" href="index.html">From Scratch</a>
+
+      <!--navigation menu-->
+      <nav>
+            <!--regular navigation menu-->
+            <div class="horizontal-nav">
+            <a class="active-menu-item" style="color: rgb(159, 59, 80)" href="index.html">home</a>
+            <a href="about.html">about us</a> 
+            <a href="recipes.html">recipes</a>
+            <a href="chefs.html">chefs</a>
+            <a href="newsletter.html">newsletter</a>
+            <a href="howto.html">how to</a>
+            </div>
+
+            <!--responsive navigation menu-->
+            <div class="dropdown">
+            <button class="dropbtn"><span class="fa fa-bars fa-x"></span></button>
+            <div class="dropdown-content">
+                <a href="index.html">home</a>
+                <a href="about.html">about us</a>
+                <a href="recipes.html">recipes</a>
+                <a href="chefs.html">chefs</a>
+                <a href="newsletter.html">newsletter</a>
+                <a href="howto.html">how to</a>
+            </div>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <section>
+    
+        <div class="cover-hp">
+        
+            <h1 style="color: rgb(80, 80, 80); font-weight: lighter; margin: 0%; padding-top: 300px;">Eating has never been easier!</h1>
+            <div class="center"><a href="about.html" class="button" style="align-items:last baseline;">about us</a></div>
+        </div>
+
+        <div class="cover-hp1">
+            <h1 style="color: rgb(80, 80, 80); padding-top: 90px;">RECIPES</h1>
+
+            <div class="parent-container">
+
+                <div class="child-container" style="gap: 40px;">
+
+                    <div style="text-align: center">
+                        <img src="/assets/images/snack.jpg" alt="bbq" style="width: 180px; height: 180px;">
+                    </div>
+
+                    <div style="text-align: center">
+                        <img src="/assets/images/breakfast.jpg" alt="bbq" style="width: 180px; height: 180px;">
+                    </div>
+
+                    <div style="text-align: center">
+                        <img src="/assets/images/lunch.jpg" alt="bbq" style="width: 180px; height: 180px;">
+                    </div>
+
+                    <div style="text-align: center">
+                        <img src="/assets/images/dinner.jpg" alt="bbq" style="width: 180px; height: 180px;">
+                    </div>
+
+                </div>
+
+                <div class="center"><a href="recipes.html" class="button">learn more</a></div>
+            
+            </div>
+
+
+        </div>
+
+        <div class="cover-hp2">
+            <h1 style="color: white; padding-top: 90px;">CHEFS</h1>
+            <p>Our world-class team of chefs stay abreast of the latest developments in 
+               the culinary world. Every day, they create easy recipes for you to cook 
+               from scratch!</p>
+            <div class="center"><a href="chefs.html" class="button">learn more</a></div>
+            
+        </div>
+
+        <div class="cover-hp3">
+            <h1 style="color:black; padding-top: 80px;">NEWSLETTER</h1>
+
+                <div class="parent-container">
+
+                    <div class="child-container">
+
+                        <div style="text-align: center">
+                            <img src="/assets/images/bbq.jpg" alt="bbq">
+                            <p style="font-size: 14px; color: rgb(80, 80, 80); padding-top: 5px; max-width: 240px;">Hello my footies! The weekend is here and it’s time to bbq...</p>
+                            <a href="newsletter.html" style="color: rgb(159, 59, 80); font-weight: bold; text-decoration: none">READ MORE</a>
+                        </div>
+
+                    
+                        <div style="text-align: center">
+                            <img src="/assets/images/eggs.jpg" alt="eggs">
+                            <p style="font-size: 14px; color: rgb(80, 80, 80); padding-top: 5px; max-width: 240px;">Hello my footies! Protein has to be part of your diet if you want to...</p>
+                            <a href="newsletter.html" style="color: rgb(159, 59, 80); font-weight: bold; text-decoration: none">READ MORE</a>
+                        </div>
+
+                    
+                        <div style="text-align: center">
+                            <img src="/assets/images/fall.jpg" alt="leaves">
+                            <p style="font-size: 14px; color: rgb(80, 80, 80); padding-top: 5px; max-width: 240px;">Hello my footies! Fall is almost here and it’s time to think about...</p>
+                            <a href="newsletter.html" style="color: rgb(159, 59, 80); font-weight: bold; text-decoration: none">READ MORE</a>
+                        </div>
+
+                    
+                        <div style="text-align: center">
+                            <img src="/assets/images/child.jpg" alt="child's hand">
+                            <p style="font-size: 14px; color: rgb(80, 80, 80); padding-top: 5px; max-width: 240px;">Hello my footies! Children will enjoy these easy treats for snack time...</p>
+                            <a href="newsletter.html" style="color: rgb(159, 59, 80); font-weight: bold; text-decoration: none">READ MORE</a>
+                        </div>
+                    </div>
+                
+                </div>
+        </div>
+
+        <div class="cover-hp4">
+            <h1 style="color: white; padding-top: 90px;">HOW TO'S</h1>
+            <p>It’s never too late to learn something! From day-to-day to special 
+                occasion tips, this section is dedicated to your internal chef!</p>
+            <div class="center"><a href="howto.html" class="button">learn more</a></div>
+        </div>
+
+    </section>
+
+    <!--some spaces-->
+    <br><br><br>
+
+    <div class="to-top"><a href="#">Top</a></div>
+
+    <!--footer of all webpages-->
+    <footer>
+        <div class="icon-horizontal">
+
+            <a href="https://www.instagram.com/" target="_blank" 
+            class="fa fa-instagram fa-2x hover-color"></a>
+
+            <a href="https://www.facebook.com/" target="_blank"
+             class="fa fa-facebook fa-2x hover-color padding-left"></a>
+             
+        </div>    
+        <div class="copy-right">
+            <span>Copyright &copy; 2023 Sanus | All Rights Reserved</span>
+        </div>
+          
+    </footer>
+  </body>
+  
+  </html>
