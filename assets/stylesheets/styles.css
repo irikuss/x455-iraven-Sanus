@@ -128,63 +128,63 @@ header a.logotext2{
 
 /*defining image cover homepage*/
 header.home-page{
-    background: #eee url(assets/images/cover_home.jpg) no-repeat center;
+    background: #eee url(../images/cover_home.jpg) no-repeat center;
     background-size: cover;
     height: 600px;
 }
 
 /*defining image cover about*/
 header.about{
-    background: #eee url(assets/images/cover_about.jpg) no-repeat center;
+    background: #eee url(../images/cover_about.jpg) no-repeat center;
     background-size: cover;
     height: 400px;
 }
 
 /*defining image cover recipes*/
 header.recipes{
-    background: #eee url(assets/images/cover_recipes.jpg) no-repeat center;
+    background: #eee url(../images/cover_recipes.jpg) no-repeat center;
     background-size: cover;
     height: 400px;
 }
 
 /*defining image cover chefs*/
 header.chefs{
-    background: #eee url(assets/images/cover_chefs.jpg) no-repeat center;
+    background: #eee url(../images/cover_chefs.jpg) no-repeat center;
     background-size: cover;
     height: 400px;
 }
 
 /*defining image cover howto*/
 header.howto{
-    background: #eee url(assets/images/cover_howto.jpg) no-repeat center;
+    background: #eee url(../images/cover_howto.jpg) no-repeat center;
     background-size: cover;
     height: 400px;
 }
 
 /*defining image cover newsletter*/
 header.newsletters{
-    background: #eee url(assets/images/cover_newsletters.jpg) no-repeat center;
+    background: #eee url(../images/cover_newsletters.jpg) no-repeat center;
     background-size: cover;
     height: 400px;
 }
 
 /*defining image cover recipes home page*/
 .cover-hp{
-    background: #eee url(assets/images/cover_home.jpg) no-repeat center;
+    background: #eee url(../images/cover_home.jpg) no-repeat center;
     background-size: cover;
     height: 600px;
 }
 
 /*defining image cover recipes home page*/
 .cover-hp1{
-    background: linear-gradient( rgba(255, 226, 226, 0.923), rgba(174, 166, 166, 0.783) ), url(assets/images/background2.png) no-repeat center;
+    background: linear-gradient( rgba(255, 226, 226, 0.923), rgba(174, 166, 166, 0.783) ), url(../images/background2.png) no-repeat center;
     background-size: cover;
     height: 660px;
 }
 
 /*defining image cover chef home page*/
 .cover-hp2{
-    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(assets/images/cover_chefs.jpg) no-repeat center;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(../images/cover_chefs.jpg) no-repeat center;
     background-size: cover;
     height: 600px;
 }
@@ -198,7 +198,7 @@ header.newsletters{
 
 /*defining image cover how to's home page*/
 .cover-hp4{
-    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(assets/images/cover_howto.jpg) no-repeat center;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(../images/cover_howto.jpg) no-repeat center;
     background-size: cover;
     opacity: 2.4;
     height: 600px;
