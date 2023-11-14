@@ -128,7 +128,7 @@ header a.logotext2{
 
 /*defining image cover homepage*/
 header.home-page{
-    background: #eee url('assets/images/cover_home.jpg') no-repeat center;
+    background: #eee url('/assets/images/cover_home.jpg') no-repeat center;
     background-size: cover;
     height: 600px;
 }
